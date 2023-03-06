@@ -32,8 +32,19 @@ body {
 
 .user-bottom {
   position: relative;
-  bottom: 18px;
+  bottom: 25px;
   background-color: hsl(235, 46%, 20%);
   height: 175px;
   border-radius: 15px;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  top: 28px;
+  padding: 20px 30px;
+  color: hsl(235, 45%, 61%);
 }
