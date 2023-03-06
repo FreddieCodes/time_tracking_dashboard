@@ -1,0 +1,38 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+
+.section {
+  padding: 80px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* overlap */
+.overlap {
+  z-index: 1;
+}
+
+/* user section */
+
+.user-wrapper {
+  width: 250px;
+}
+
+.user-top {
+  position: relative;
+  background-color: hsl(246, 80%, 60%);
+  height: 350px;
+  border-radius: 15px;
+}
+
+.user-bottom {
+  position: relative;
+  bottom: 18px;
+  background-color: hsl(235, 46%, 20%);
+  height: 175px;
+  border-radius: 15px;
+}
