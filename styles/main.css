@@ -1,6 +1,13 @@
 body {
   font-family: 'Rubik', sans-serif;
   background-color: hsl(226, 43%, 10%);
+  font-weight: 400;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 5px;
 }
 
 .section {
@@ -20,7 +27,7 @@ body {
 /* user section */
 
 .user-wrapper {
-  width: 250px;
+  width: 220px;
 }
 
 .user-top {
@@ -36,6 +43,27 @@ body {
   background-color: hsl(235, 46%, 20%);
   height: 175px;
   border-radius: 15px;
+}
+
+.img-section {
+  margin: 20px 0;
+  width: 75px;
+}
+
+.profile-img {
+  width: inherit;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 300;
+}
+
+.user-name {
+  font-size: 36px;
 }
 
 .text-container {
