@@ -5,9 +5,10 @@ body {
 }
 
 p {
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 400;
   margin-bottom: 5px;
+  color: hsl(236, 100%, 87%);
 }
 
 .section {
@@ -33,7 +34,7 @@ p {
 .user-top {
   position: relative;
   background-color: hsl(246, 80%, 60%);
-  height: 350px;
+  height: 325px;
   border-radius: 15px;
 }
 
