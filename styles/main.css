@@ -134,6 +134,12 @@ p {
   font-size: 18px;
 }
 
+.icon-options {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+
 .hours-large {
   font-size: 46px;
   font-weight: 300;
