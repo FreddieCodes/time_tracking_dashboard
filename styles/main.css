@@ -16,6 +16,8 @@ p {
 }
 
 .container {
+  display: flex;
+  height: 500px;
   margin: 0 auto;
   max-width: 1000px;
 }
@@ -29,6 +31,7 @@ p {
 
 .user-wrapper {
   width: 220px;
+  padding-right: 30px;
 }
 
 .user-top {
@@ -76,4 +79,33 @@ p {
   top: 28px;
   padding: 20px 30px;
   color: hsl(235, 45%, 61%);
+}
+
+/* Dashboard */
+.dashboard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+  width: 720px;
+}
+
+.dashboard-item-wrapper {
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+.dash-top {
+  position: relative;
+  height: 65px;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 15px;
+}
+
+.dash-bottom {
+  position: relative;
+  bottom: 23px;
+  background-color: hsl(235, 46%, 20%);
+  height: 180px;
+  border-radius: 15px;
 }
